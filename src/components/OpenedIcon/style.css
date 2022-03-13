@@ -1,0 +1,46 @@
+.openedicon-box {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    z-index: 4;
+}
+
+.box-main {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.openedicon-box-close {
+    color: #ffffff;
+    margin: 10px;
+    background-color: #c18080;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.openedicon-widget {
+    width: 200px;
+    background-color: #d34949;
+    color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    position: absolute;
+    z-index: 5;
+}

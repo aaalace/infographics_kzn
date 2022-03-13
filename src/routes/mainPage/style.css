@@ -1,0 +1,19 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('https://www.hotels.ru/content/images/essence/about_city/-2923066/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+}

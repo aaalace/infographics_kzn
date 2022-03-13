@@ -1,0 +1,33 @@
+.map-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    align-items: center;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.map {
+    width: 100%;
+    height: 80%;
+    background: url('./map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+.icon:hover {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
