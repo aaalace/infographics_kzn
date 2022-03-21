@@ -12,7 +12,7 @@ html {
 
 .app {
     font-family: 'Avenir Next', monospace, sans-serif;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 body {
