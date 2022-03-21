@@ -33,14 +33,25 @@
 }
 
 .openedicon-widget {
-    width: 200px;
+    width: 70%;
     background-color: #d34949;
     color: #ffffff;
     border-radius: 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding: 7px;
     position: absolute;
     z-index: 5;
+}
+
+.openedicon-name{
+    left: 0;
+    margin: 10px;
+    margin-bottom: 10px;
+    color: rgb(89, 245, 102);
+}
+
+.openedicon-desc{
+    margin: 10px;
+    color: rgb(255, 255, 255);
 }

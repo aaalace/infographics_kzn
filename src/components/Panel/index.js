@@ -15,6 +15,9 @@ export function Panel() {
 
     return(
         <div className="panel-container">
+            <div style={{display: 'flex', justifyContent: 'center', backgroundColor: '#ffffff9d', width: '80%', borderRadius: '15px', margin: '20px'}}>
+                <h1 style={{fontSize: '40px', color: '#d34949', margin: '5px'}}>2022</h1>
+            </div>
            <div className="list">
                 <div onClick={() => openMonth(1)} className="item">
                     <div className="item-header">

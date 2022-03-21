@@ -1,5 +1,6 @@
 .panel-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 20%;
     height: fit-content;
@@ -41,4 +42,16 @@
 
 .item-icon {
     color: rgba(27, 168, 39);;
+}
+
+@media screen and (max-width: 1000px) {
+    .panel-container {
+        width: 90%;
+        margin: 0;
+    }
+
+    .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
