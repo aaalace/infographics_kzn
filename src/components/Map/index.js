@@ -72,16 +72,16 @@ export function CustomMap() {
             setObjects(['dance'])
         }
         if(month == 5){
-            setObjects(['cityday'])
+            setObjects(['colorsDay'])
         }
         if(month == 6){
-            setObjects(['kurbanBairam'])
-        }
-        if(month == 7){
             setObjects(['sabantui'])
         }
+        if(month == 7){
+            setObjects(['kurbanBairam'])
+        }
         if(month == 8){
-            setObjects(['colorsDay'])
+            setObjects(['cityday'])
         }
         if(month == 9){
             setObjects(['cinema'])
